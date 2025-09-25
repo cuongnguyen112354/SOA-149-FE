@@ -130,7 +130,7 @@
                 document.querySelector('.profile').classList.add('active');
                 document.getElementById('profileUsername').textContent = data.profile.username;
                 document.getElementById('profileEmail').textContent = data.profile.email;
-                document.getElementById('profileBalance').textContent = data.profile.AvailableBalance;
+                document.getElementById('profileBalance').textContent = data.profile.available_balance;
             } catch (error) {
                 errorMsg.textContent = 'Invalid username or password';  // Có thể tùy chỉnh từ response
                 errorMsg.style.display = 'block';
