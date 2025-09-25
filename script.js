@@ -1,5 +1,5 @@
-// let endpoint = 'http://127.0.0.1:8000';
-let endpoint = 'https://soa-149-be.onrender.com';
+let endpoint = 'http://127.0.0.1:8000';
+// let endpoint = 'https://soa-149-be.onrender.com';
 
 document.getElementById('loginForm')?.addEventListener('submit', async function(event) {
     event.preventDefault();
